@@ -126,5 +126,6 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # CORS CONFIGURATION
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173",  # Added this per your suggestion (Good practice!)
+    "http://127.0.0.1:5173",
+    "https://your-vercel-app-name.vercel.app",  # <--- Paste your real Vercel URL here
 ]
