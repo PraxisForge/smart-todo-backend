@@ -1,0 +1,14 @@
+# Security: Never upload API keys
+backend/credentials.json
+credentials.json
+
+# System: Ignore virtual environment (it's too heavy)
+venv/
+.env
+
+# Database: Ignore local database (Production will make its own)
+db.sqlite3
+
+# Python: Ignore compiled files
+__pycache__/
+*.pyc
