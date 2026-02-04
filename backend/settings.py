@@ -129,3 +129,16 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "https://smart-todo-backend-one.vercel.app",  # <--- Paste your real Vercel URL here
 ]
+
+# CORS CONFIGURATION
+# For debugging, we allow all origins first to ensure connection works.
+CORS_ALLOW_ALL_ORIGINS = True 
+
+# If you prefer to be strict, you can keep the list, but 'Allow All' is safer for now.
+# CORS_ALLOWED_ORIGINS = [ ... ]
+
+# CSRF CONFIGURATION
+# Django requires this for HTTPS POST requests from external domains
+CSRF_TRUSTED_ORIGINS = [
+    "https://smart-todo-backend-one.vercel.app",
+]
