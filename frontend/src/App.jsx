@@ -6,7 +6,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState("");
 
-  const API_URL = "http://127.0.0.1:8000/api/tasks/";
+  const API_URL = "https://smart-todo-backend-ld93.onrender.com/api/tasks/";
 
   const fetchTasks = () => {
     axios
