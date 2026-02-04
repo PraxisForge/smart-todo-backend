@@ -127,5 +127,5 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://your-vercel-app-name.vercel.app",  # <--- Paste your real Vercel URL here
+    "https://smart-todo-backend-one.vercel.app",  # <--- Paste your real Vercel URL here
 ]
